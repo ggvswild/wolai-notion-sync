@@ -1,0 +1,12 @@
+{
+  "engine": "Fun-CosyVoice3-0.5B",
+  "device": "cpu",
+  "fp16": false,
+  "load_trt": false,
+  "load_vllm": false,
+  "sample_rate": 24000,
+  "prompt_text": "You are a helpful assistant.<|endofprompt|>希望你以后能够做的比我还好呦。",
+  "reference_sha256": "c7b31d6dbe7cc6a716dded00550db5b50940bf209e424e4ad207b12e657c8ff6",
+  "frontend": "unavailable-basic-text",
+  "offline": true
+}

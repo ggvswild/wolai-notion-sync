@@ -1,0 +1,19 @@
+{
+  "name": "wolai-notion-sync",
+  "version": "0.1.0",
+  "description": "A local-first, one-way hierarchical Wolai to Notion synchronizer",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22.19.0" },
+  "bin": { "wolai-notion-sync": "bin/cli.mjs" },
+  "files": ["bin/", "lib/", "examples/", "docs/", "README.md", "README.en.md", "LICENSE", "SECURITY.md", "CONTRIBUTING.md", "THIRD_PARTY_NOTICES.md", "CHANGELOG.md", ".env.example", "tutorial/README.md", "tutorial/media/wolai-notion-setup.zh-CN.mp4", "tutorial/media/wolai-notion-setup.zh-CN.srt", "tutorial/media/chapters.json", "tutorial/media/narration.txt", "tutorial/media/scene-01.jpg", "tutorial/media/voice-provenance.json"],
+  "scripts": {
+    "test": "node --test",
+    "sync": "node bin/cli.mjs sync",
+    "check": "node bin/cli.mjs check",
+    "privacy": "node scripts/privacy-check.mjs",
+    "smoke": "node scripts/package-smoke.mjs",
+    "prepack": "npm run privacy && npm test"
+  },
+  "dependencies": { "undici": "7.30.0" }
+}

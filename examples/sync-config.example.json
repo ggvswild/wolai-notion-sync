@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "syncScope": { "sourceRootIds": ["REPLACE_WITH_WOLAI_PAGE_ID"] },
+  "notionRoot": { "pageId": "REPLACE_WITH_NOTION_PAGE_ID" },
+  "policy": { "batchSize": 50, "deleteInNotionWhenMissingFromWolai": false, "overwriteManualNotionEdits": false },
+  "appearance": { "ideaIcon": "💡", "datedLogIcon": "📅" },
+  "media": { "maxFileUploadBytes": 5242880 }
+}
