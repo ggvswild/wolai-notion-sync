@@ -1,0 +1,198 @@
+scripts/privacy-check.mjs
+  0c28a3e16a33493c 1-49
+lib/config.mjs
+  0c28a3e16a33493c 1-51
+test/community-verification.test.mjs
+  0c28a3e16a33493c 1-52
+lib/entry-point.mjs
+  0c28a3e16a33493c 1-8
+tutorial/media/narration.txt
+  a90500eed0393864 1-35
+tutorial/media/wolai-notion-setup.zh-CN.srt
+  a90500eed0393864 1-191
+CONTRIBUTING.md
+  0c28a3e16a33493c 1-24
+lib/source-tree.mjs
+  0c28a3e16a33493c 1-153
+lib/notion-rest-client.mjs
+  0c28a3e16a33493c 1-281
+test/cli-plan.test.mjs
+  0c28a3e16a33493c 1-35
+bin/cli.mjs
+  0c28a3e16a33493c 1-89
+README.md
+  0c28a3e16a33493c 1-173
+package.json
+  0c28a3e16a33493c 1-19
+tutorial/build_video.py
+  0c28a3e16a33493c 1-200
+docs/release-readiness.md
+  0c28a3e16a33493c 1-13
+tutorial/generate_cosyvoice.py
+  0c28a3e16a33493c 1-110
+README.en.md
+  0c28a3e16a33493c 1-43
+scripts/package-smoke.mjs
+  0c28a3e16a33493c 1-24
+.gitignore
+  0c28a3e16a33493c 1-24
+lib/wolai-client.mjs
+  0c28a3e16a33493c 1-62
+docs/ai-quickstart.md
+  0c28a3e16a33493c 1-46
+CHANGELOG.md
+  0c28a3e16a33493c 1-11
+tutorial/README.md
+  0c28a3e16a33493c 1-49
+tutorial/media/chapters.json
+  a90500eed0393864 1-74
+tutorial/media/voice-provenance.json
+  a90500eed0393864 1-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.9",
+  "base_commit_sha": "ef005a11b9f845afb2bd3d2af7daa4991e6311f7",
+  "prompts": {
+    "0c28a3e16a33493c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a04e38-5bec-72d2-b743-d549c19f393b",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "网易 Netease",
+      "messages": [],
+      "total_additions": 1569,
+      "total_deletions": 53,
+      "accepted_lines": 1516,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "scripts/privacy-check.mjs": {
+          "additions": 53,
+          "deletions": 4,
+          "accepted_lines": 49
+        },
+        "lib/notion-rest-client.mjs": {
+          "additions": 283,
+          "deletions": 2,
+          "accepted_lines": 281
+        },
+        "tutorial/build_video.py": {
+          "additions": 218,
+          "deletions": 18,
+          "accepted_lines": 200
+        },
+        "package.json": {
+          "additions": 23,
+          "deletions": 4,
+          "accepted_lines": 19
+        },
+        ".gitignore": {
+          "additions": 24,
+          "accepted_lines": 24
+        },
+        "README.en.md": {
+          "additions": 44,
+          "deletions": 1,
+          "accepted_lines": 43
+        },
+        "lib/source-tree.mjs": {
+          "additions": 153,
+          "accepted_lines": 153
+        },
+        "CONTRIBUTING.md": {
+          "additions": 24,
+          "accepted_lines": 24
+        },
+        "tutorial/README.md": {
+          "additions": 65,
+          "deletions": 16,
+          "accepted_lines": 49
+        },
+        "README.md": {
+          "additions": 175,
+          "deletions": 2,
+          "accepted_lines": 173
+        },
+        "docs/ai-quickstart.md": {
+          "additions": 47,
+          "deletions": 1,
+          "accepted_lines": 46
+        },
+        "CHANGELOG.md": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "test/community-verification.test.mjs": {
+          "additions": 52,
+          "accepted_lines": 52
+        },
+        "tutorial/generate_cosyvoice.py": {
+          "additions": 110,
+          "accepted_lines": 110
+        },
+        "scripts/package-smoke.mjs": {
+          "additions": 24,
+          "accepted_lines": 24
+        },
+        "lib/config.mjs": {
+          "additions": 54,
+          "deletions": 3,
+          "accepted_lines": 51
+        },
+        "lib/entry-point.mjs": {
+          "additions": 8,
+          "accepted_lines": 8
+        },
+        "bin/cli.mjs": {
+          "additions": 91,
+          "deletions": 2,
+          "accepted_lines": 89
+        },
+        "docs/release-readiness.md": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "test/cli-plan.test.mjs": {
+          "additions": 35,
+          "accepted_lines": 35
+        },
+        "lib/wolai-client.mjs": {
+          "additions": 62,
+          "accepted_lines": 62
+        }
+      }
+    },
+    "a90500eed0393864": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "rollout-2026-08-29T23-51-51-01a04e38-5bec-72d2-b743-d549c19f393b",
+        "model": "unknown"
+      },
+      "human_author": "网易 Netease",
+      "messages": [],
+      "total_additions": 312,
+      "total_deletions": 0,
+      "accepted_lines": 312,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "tutorial/media/voice-provenance.json": {
+          "additions": 12,
+          "accepted_lines": 12
+        },
+        "tutorial/media/wolai-notion-setup.zh-CN.srt": {
+          "additions": 191,
+          "accepted_lines": 191
+        },
+        "tutorial/media/chapters.json": {
+          "additions": 74,
+          "accepted_lines": 74
+        },
+        "tutorial/media/narration.txt": {
+          "additions": 35,
+          "accepted_lines": 35
+        }
+      }
+    }
+  }
+}
