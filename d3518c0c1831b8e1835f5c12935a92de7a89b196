@@ -1,0 +1,54 @@
+docs/operations.md
+  0c28a3e16a33493c 38
+README.en.md
+  0c28a3e16a33493c 9,41
+tutorial/README.md
+  0c28a3e16a33493c 3,9,35
+README.md
+  0c28a3e16a33493c 15,157,159,161
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.9",
+  "base_commit_sha": "d3518c0c1831b8e1835f5c12935a92de7a89b196",
+  "prompts": {
+    "0c28a3e16a33493c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a04e38-5bec-72d2-b743-d549c19f393b",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "网易 Netease",
+      "messages": [],
+      "total_additions": 10,
+      "total_deletions": 45,
+      "accepted_lines": 10,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "tutorial/README.md": {
+          "additions": 3,
+          "deletions": 17,
+          "accepted_lines": 3
+        },
+        "README.md": {
+          "additions": 4,
+          "deletions": 12,
+          "accepted_lines": 4
+        },
+        "docs/operations.md": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "docs/release-readiness.md": {
+          "deletions": 13
+        },
+        "README.en.md": {
+          "additions": 2,
+          "deletions": 2,
+          "accepted_lines": 2
+        }
+      }
+    }
+  }
+}
