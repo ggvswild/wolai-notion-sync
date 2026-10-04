@@ -6,7 +6,7 @@ A local-first, one-way CLI that mirrors selected Wolai page trees into an existi
 
 ## Quick start
 
-[Watch the Chinese video walkthrough](https://d1.music.126.net/dmusic/35bf/351c/7ed5/ccb22e35a81a28a49529bf5f67aeacbd.mp4?infoId=4482506) — approximately 3 min 41 sec, narrated with Fun-CosyVoice3. See [chapters, subtitles and redaction notes](tutorial/README.md).
+[Watch the Chinese video walkthrough](https://d1.music.126.net/dmusic/35bf/351c/7ed5/ccb22e35a81a28a49529bf5f67aeacbd.mp4?infoId=4482506) — approximately 3 min 41 sec. See [chapters and subtitles](tutorial/README.md).
 
 Requirements: Node.js 22.19+, npm, a Wolai MCP token, and your own Notion token with read/insert/update access to the export root.
 
@@ -38,6 +38,6 @@ node --env-file=.env bin/cli.mjs verify      # Read-only full page/order verific
 - `idea` titles receive 💡 and dated titles 📅 unless a custom icon is already present.
 - Tokens come only from your environment. Runtime data contains private notes and must never be published. There is no cross-device distributed lock: use a single writer per target.
 
-See [operations](docs/operations.md), [architecture](docs/architecture.md), [security](SECURITY.md), and [contribution guidelines](CONTRIBUTING.md). Run `npm test`, `npm run privacy`, and `npm pack --dry-run` before release. The CI matrix is provided; its presence is not evidence that remote CI has run.
+See [operations](docs/operations.md), [architecture](docs/architecture.md), [security](SECURITY.md), and [contribution guidelines](CONTRIBUTING.md).
 
 MIT licensed. Notion API compatibility is pinned to `2026-03-11`. This is a self-hosted CLI, not a hosted OAuth application.

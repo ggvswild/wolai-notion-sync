@@ -12,7 +12,7 @@
 
 [![播放中文讲解视频](tutorial/media/scene-01.jpg)](https://d1.music.126.net/dmusic/35bf/351c/7ed5/ccb22e35a81a28a49529bf5f67aeacbd.mp4?infoId=4482506)
 
-[在线观看 / 下载视频](https://d1.music.126.net/dmusic/35bf/351c/7ed5/ccb22e35a81a28a49529bf5f67aeacbd.mp4?infoId=4482506) · Fun-CosyVoice3 中文旁白，约 3 分 41 秒。包含凭证配置、初始化、同步与验收示意；[章节、字幕和脱敏说明](tutorial/README.md)。
+[在线观看 / 下载视频](https://d1.music.126.net/dmusic/35bf/351c/7ed5/ccb22e35a81a28a49529bf5f67aeacbd.mp4?infoId=4482506) · 中文讲解，约 3 分 41 秒。包含凭证配置、初始化、同步与验收示意；[章节和字幕](tutorial/README.md)。
 
 ## 能做什么
 
@@ -154,19 +154,11 @@ node --env-file=.env bin/cli.mjs verify
 
 只启用**一个写入同一目标的设备**。本地锁不提供跨设备分布式互斥。换设备时，先停止旧定时任务，再私下迁移完整运行数据、在新设备自行配置凭证并核对绑定；不同用户应使用各自的账号、根页面和数据目录。
 
-## 开发、贡献与发布
+## 参与贡献
 
-```sh
-npm test
-npm run privacy
-npm pack --dry-run
-```
+开发与测试步骤见 [贡献指南](CONTRIBUTING.md)，实现原理见 [架构说明](docs/architecture.md)。
 
-测试全部使用合成笔记、Mock 接口或临时目录，不需要你的真实账号。CI 配置覆盖 Node 22/24 与 Linux/macOS/Windows；配置存在不表示这些远端 CI 已经执行通过。
-
-Git 忽略运行数据，npm 另外使用 `files` 白名单；`prepack` 会运行隐私检查和测试。依赖的许可证和来源见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
-
-发布前清单见 [CONTRIBUTING.md](CONTRIBUTING.md)。项目目前为 `0.1.0` 社区初始版，不是托管 SaaS，不提供 OAuth 安装服务；第三方 API、网关和权限策略变化仍可能影响兼容性。
+本工具在你自己的设备上运行，不提供托管服务或 OAuth 安装；第三方 API 和权限策略变化可能影响兼容性。
 
 ## 许可证
 
